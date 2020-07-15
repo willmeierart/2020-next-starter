@@ -51,31 +51,16 @@ class Application extends App {
 						/>
 					</PageTransition>
 					<style jsx global>{`
-						@font-face {
+						{/* @font-face {
 							font-family: 'Montserrat';
 							src: url('/static/fonts/Montserrat-Regular.woff2') format('woff2'),
 								url('/static/fonts/Montserrat-Regular.woff') format('woff');
 							font-weight: normal;
 							font-style: normal;
-						}
+						} */}
 						body {
-							--color-grey-darkest: #676767;
-							--color-grey-dark: #696964;
-							--color-grey: #a5a5a2;
-							--color-grey-light: #c9c9c7;
-							--color-grey-lighter: #dfdfdd;
-							--color-grey-lightest: #f2f2f2;
-							--color-background: var(--color-grey-lightest);
-							--color-text: var(--color-grey-darkest);
-							--color-text-hover: #ffffff;
-							--color-background-hover: var(--color-grey-darkest);
-							background: var(--color-background);
 							box-sizing: border-box;
-							color: var(--color-text);
-							font-family: 'Montserrat', sans-serif;
-							font-size: 11px;
 							height: 100vh;
-							letter-spacing: 1px;
 							margin: 0;
 							padding: 0;
 							width: 100vw;
